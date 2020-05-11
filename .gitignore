@@ -1,2 +1,11 @@
-node_modules
-dist
+# dependencies 
+/node_modules 
+
+# testing 
+/coverage 
+
+# production 
+/dist 
+
+# misc 
+# .env    

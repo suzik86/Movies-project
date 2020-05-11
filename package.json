@@ -6,6 +6,9 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
+    "react-start": "react-scripts start",
+    "react-build": "react-scripts build",
+    "serve": "serve -s build",
     "test": "jest"
   },
   "dependencies": {
@@ -14,6 +17,7 @@
     "react-hot-loader": "^4.12.21",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.1",
     "redux": "^4.0.5"
   },
   "devDependencies": {
@@ -32,5 +36,17 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
